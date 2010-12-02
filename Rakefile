@@ -13,10 +13,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "sammy-rails"
-  gem.homepage = "http://github.com/brunowernimont/sammy-rails"
+  gem.homepage = "http://github.com/brunow/sammy-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Use Sammy with Rails 3"
+  gem.description = "This gem provides a generator to install Sammy and his plugin into your Rails 3 application."
   gem.email = "hello@brunowernimont.be"
   gem.authors = ["Bruno Wernimont"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
