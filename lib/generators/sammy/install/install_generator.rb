@@ -2,7 +2,7 @@ module Sammy
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
       desc "This generator downloads and install the newest Sammy jQuery plugin"
-      @@default_version = "0.6.2"
+      @@default_version = "0.7.1"
       class_option :version, :type => :string,  :default => @@default_version.dup, :desc => "Which version of Sammy to fetch ?"
       class_option :plugin,  :type => :boolean, :default => false,                 :desc => "Do you want to fetch all plugin ?"
       
